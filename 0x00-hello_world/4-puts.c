@@ -4,8 +4,8 @@
  * main - the entry point
  * Return - is 0 after compiling
  */
-int main(void)
+int main (void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return 0;
+	return (0);
 }
