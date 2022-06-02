@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - is the entry point
  * return: 0 after compiling
