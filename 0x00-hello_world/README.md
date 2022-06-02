@@ -1,1 +1,1 @@
-welcome to C
+programming of C
