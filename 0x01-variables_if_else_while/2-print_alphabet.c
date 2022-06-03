@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - is the entry point
  * Return: is 0 after compiling
@@ -9,6 +11,6 @@ int main(void)
 
 	for (low = 'a'; low <= 'z'; low++)
 		putchar(low);
-	putchat('\n');
+	putchar('\n');
 	return (0);
 }
