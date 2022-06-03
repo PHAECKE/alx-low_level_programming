@@ -10,7 +10,7 @@ int main(void)
 {
 	int f, a;
 
-	for (f = '0'0; f < '9'; f++)
+	for (f = '0'; f < '9'; f++)
 	{
 		for (a = f + 1; a <= '9'; a++)
 		{
