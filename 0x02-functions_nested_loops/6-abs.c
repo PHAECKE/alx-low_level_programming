@@ -1,6 +1,7 @@
-include "main.h"
+#include "main.h"
  /**
   * _abs - is the entry
+  * @f: checks the input
   * Return: absolute value
   */
 int _abs(int f)
