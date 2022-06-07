@@ -2,7 +2,8 @@
 /**
  * _isalpha - is the entry
  * @c: a character in ASCII code
- * Return: is 1 if output is a letter, lowercase or uppercase and 0 if otherwise
+ * Return: is 1 if output is a letter, lowercase
+ * or uppercase and 0 if otherwise
  */
 int _isalpha(int c)
 {
