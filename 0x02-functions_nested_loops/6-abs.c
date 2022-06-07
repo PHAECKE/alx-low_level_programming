@@ -1,7 +1,7 @@
 #include "main.h"
 
  /**
-  * _abs - is the entry
+  *_abs - is the entry
   * @f: checks the input
   * Return: absolute value
   */
