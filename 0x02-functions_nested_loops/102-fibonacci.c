@@ -7,7 +7,7 @@
 int main(void)
 {
 	int a;
-	lont int b, c, d;
+	long int b, c, d;
 
 	b = 1;
 	c = 2;
