@@ -3,9 +3,9 @@
 /**
  * print_times_table - is the entry
  * @n: is the number times table (0<n<=15)
- * Return: nothing
+ * Return: is nothing
  */
-void print_times_table(int b)
+void print_times_table(int n)
 {
 	int i, j;
 
