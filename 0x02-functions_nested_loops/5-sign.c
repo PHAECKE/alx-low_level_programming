@@ -6,9 +6,9 @@
   * Return: os 1 if mumber is positive, 0 if number is 0,
   * or -1 if number is negative
   */
-int print_sign(void)
+int print_sign(int n)
 {
-	int num, n;
+	int num;
 
 	if (n > 0)
 	{
