@@ -3,6 +3,7 @@
 
 /**
  * print_to_98 - is the entry
+ * @n: accepts integers
  * Return: nothing
  */
 void print_to_98(int n)
