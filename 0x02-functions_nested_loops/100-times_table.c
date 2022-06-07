@@ -38,7 +38,7 @@ void print_times_table(int n)
 					_putchar((c % 10) + 48);
 				}
 			}
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
 }
