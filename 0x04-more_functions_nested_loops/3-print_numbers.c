@@ -3,7 +3,7 @@
  * print_numbers - prints numbers from 0 to 9
  * Return: 0
  */
-coid print_numbers(void)
+void print_numbers(void)
 {
 	int a;
 
