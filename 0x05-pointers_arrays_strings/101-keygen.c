@@ -8,7 +8,7 @@
 int main(void)
 {
 	char str[100];
-	int i = 0, a = 0, b = 0;
+	int i = 0, b = 0, c = 0;
 
 	srand(time(NULL));
 
