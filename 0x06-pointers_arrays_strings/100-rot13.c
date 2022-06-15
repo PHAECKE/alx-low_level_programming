@@ -6,21 +6,22 @@
  */
 char *rot13(char *s)
 {
-	int i = 0;
-
-	while (s[i] != '\0')
+	int i1 = 0, i2;
+	char alphabet[52] =
+	{"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"};
+	char rot13key[52] =
+	{"NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm"};
+	while (str[i1])
 	{
-		while ((s[i] >= 'a' && s[i] <= 'z') ||
-		       (s[i] >= 'A'  && s[i] >= 'Z'))
+		for (i2 = 0; i2 < 52; i2++)
 		{
-			if ((s[i] >= 'a' && s[i] <= 'm') ||
-			    (s[i] >= 'A' && s[i] <= 'M'))
-				s[i] += 13;
-			else
-				s[i] -= 13;
-			i++;
+			if (s[i1] == alphabet[i2])
+			{
+				s[i1] =  rot13key[i2];
+				break;
+			}
 		}
-		i++;
+		i1++;
 	}
 	return (s);
 }
