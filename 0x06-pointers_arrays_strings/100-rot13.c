@@ -7,10 +7,10 @@
 char *rot13(char *s)
 {
 	int i1 = 0, i2;
-	char alphabet[52] =
-	{"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"};
-	char rot13key[52] =
-	{"NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm"};
+	char alphabet[] =
+	"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char rot13key[] =
+	"NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 	while (str[i1])
 	{
 		for (i2 = 0; i2 < 52; i2++)
