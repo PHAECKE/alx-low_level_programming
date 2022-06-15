@@ -9,7 +9,7 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int len = 0, i = 0;
-	char *remp = dest, *start = src;
+	char *temp = dest, *start = src;
 
 	while (*src)
 	{
