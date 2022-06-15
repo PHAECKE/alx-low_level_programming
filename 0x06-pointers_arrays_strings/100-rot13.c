@@ -11,7 +11,7 @@ char *rot13(char *s)
 	"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rot13key[] =
 	"NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	while (str[i1])
+	while (s[i1])
 	{
 		for (i2 = 0; i2 < 52; i2++)
 		{
