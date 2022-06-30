@@ -5,7 +5,7 @@
 #include <stddef.h>
 int check_error(char **argv, int argc);
 int l1, l2, i, j, tmp, chkk;
-int num1, num2, result, mul;
+int num1[2000], num2[2000], mul[4000]= {0};
 /**
  * main - multiplies two positive numbers
  * @argc: n arguments
