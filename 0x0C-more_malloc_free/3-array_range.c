@@ -24,3 +24,4 @@ int *array_range(int min, int max)
 		new_arr[i] = min++;
 
 	return (new_arr);
+}
